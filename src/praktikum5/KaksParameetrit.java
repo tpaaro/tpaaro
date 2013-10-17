@@ -14,7 +14,7 @@ public class KaksParameetrit {
 	
 		public static void main(String[] args) {
 	
-			int sisestus = kasutajaSisestus(1, 10);
+			kasutajaSisestus(1, 10);
 			System.out.println(" Arv j22b vahemikku");
 }
 
