@@ -3,11 +3,11 @@ import lib.TextIO;
 public class nVahemikus1099 {
 
 public static void main(String[] args) {
-	boolean t = vahemik(56);
+	boolean t = vahemik(3);
 	if (t){
 		System.out.println("On vahemikus.");
 	}else{
-		System.out.println("V'ljapool vahemikku.");
+		System.out.println("V'ljaspool vahemikku.");
 	}
 }
 public static boolean vahemik(int n){
