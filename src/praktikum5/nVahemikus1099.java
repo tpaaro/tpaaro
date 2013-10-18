@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	if (t){
 		System.out.println("On vahemikus.");
 	}else{
-		System.out.println("V'ljaspool vahemikku.");
+		System.out.println("Väljaspool vahemikku.");
 	}
 }
 public static boolean vahemik(int n){
