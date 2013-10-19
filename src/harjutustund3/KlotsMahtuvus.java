@@ -1,6 +1,6 @@
 package harjutustund3;
 
-public class Answer {
+public class KlotsMahtuvus {
 
 	public static void main(String[] param) {
 		// YOUR TESTS HERE!
