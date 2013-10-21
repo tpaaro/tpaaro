@@ -1,6 +1,8 @@
 package praktikum7;
 
+import java.util.List;
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 import lib.TextIO;
 //Kirjutada programm, mis laseb kasutajal sisestada senikaua nimesid, kui kasutaja sisestab nime asemel tühja rea. 
@@ -9,12 +11,14 @@ import lib.TextIO;
 public class NimedTuhikTahestik {
 
 	public static void main(String[] args) {
-		
-		ArrayList<String> nimed = new ArrayList<String>();
-		nimed.add("Mati");
-		for (String nimi : nimed) {
-		    System.out.println(nimi);
+    List<String> nimed = new ArrayList<>();
+		 String nimi;
+    do {
+			TextIO.putln("Sisesta nimi");
+			nimi = TextIO.getln();
+			if (!nimi.equals(""))nimed.add(nimi);
+		} while(!nimi.equals(""));
+			
 		}
 	}
 
-}
