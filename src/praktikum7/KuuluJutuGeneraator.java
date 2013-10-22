@@ -6,11 +6,11 @@ public class KuuluJutuGeneraator {
 //	Programm võtab igast massiivist ÜHE suvalise elemendi ja kombineerib nendest lause.
 //	Vihje: Massivist suvalise elemendi valimiseks arvuta random number vahemikus 0 kuni massiivi pikkus (random * length).
 	public static void main(String[] args) {
-		String [] naised = new String [] {"Malle", "Lelle", "Mari"};
+		String [] naised = new String [] {"Malle", "Aki", "Luule"};
 		String [] mehed = new String [] {"Kalle", "Viktor", "Dima"}; 
-		String [] tegusonad = new String []{"soidutas", "ratsutas", "kabistas"};
+		String [] tegusonad = new String []{"sõidutas", "ratsutas", "kabistas"};
 	
-	for (int i = 0; i < 6; i++)
+
 	System.out.println(mehed[suva(mehed)] + " " + tegusonad[suva(tegusonad)]+ " " + naised[suva(naised)] + "t.");
 	
 	}

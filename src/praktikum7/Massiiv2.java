@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class Massiiv2 {
 	public static void main(String[] args) {
 		int [] m = new int[10];
-		int i;
 		
-		for(i = 0; i < m.length; i = i + 1) {
-			m[i] = (int)(Math.random() * 100);
+		int i;
+		for( i = 0; i < m.length; i ++) {
+			m[i] = (int)(Math.random() * 1000);
 		}
 		
 		Arrays.sort(m);

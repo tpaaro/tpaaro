@@ -18,10 +18,11 @@ public static void main(String[] args) {
 //}
 int a = 5;
 int b = 3;
-double aKuup = Math.pow(a, 3);
-System.out.println(aKuup);
-double bKuup = Math.pow(b,3);
-System.out.println(bKuup);
+int aste = 3;
+double aKuup = Math.pow(a, aste);
+
+double bKuup = Math.pow(b, aste);
+
 double summa = aKuup + bKuup;
-System.out.println(summa);
+System.out.print(aKuup+ " + " + bKuup + " = " + summa);
 }}

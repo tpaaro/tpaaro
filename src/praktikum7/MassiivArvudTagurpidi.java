@@ -10,7 +10,7 @@ public class MassiivArvudTagurpidi {
 		arvud[i] = TextIO.getlnInt();
 		}
 		for ( int t = arvud.length-1; t >= 0; t--){
-			System.out.println(arvud[t]);
+			System.out.print(arvud[t] + " ");
 		}
 		}
 

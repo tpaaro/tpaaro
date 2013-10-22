@@ -3,7 +3,7 @@ import lib.TextIO;
 public class nVahemikus1099 {
 
 public static void main(String[] args) {
-	boolean t = vahemik(3);
+	boolean t = vahemik(55);
 	if (t){
 		System.out.println("On vahemikus.");
 	}else{
