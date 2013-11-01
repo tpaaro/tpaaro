@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Massiiv2 {
 	public static void main(String[] args) {
-		int [] m = new int[10];
+		int [] m = new int[8];
 		
 		int i;
 		for( i = 0; i < m.length; i ++) {
@@ -13,7 +13,7 @@ public class Massiiv2 {
 		
 		Arrays.sort(m);
 		
-		for(i = 0; i < m.length; i = i + 1) {
+		for(i = 0; i < m.length; i ++) {
 			System.out.println(m[i]);
 		}
 	}
