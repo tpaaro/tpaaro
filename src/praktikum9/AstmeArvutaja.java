@@ -7,7 +7,11 @@ public class AstmeArvutaja {
 
 	}
 	public static int astenda(int arv, int aste) {
+		int i= 5;
+		String x = "x";
+		for(int t = 0; t<=i; t++){
 		
+		}
 	    
 	}
 }
