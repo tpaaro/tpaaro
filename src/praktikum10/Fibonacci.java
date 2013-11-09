@@ -1,5 +1,7 @@
 package praktikum10;
 
+import lib.TextIO;
+
 public class Fibonacci {
 
 	public static int fib(int n) {
@@ -8,9 +10,11 @@ public class Fibonacci {
 		 }
 	
 	public static void main(String[] args) {
-		 int N = 50;
-		 for (int i = 0; i < N; i++)
-			 System.out.println( i + ": " + fib(i));
+		while(true){
+		System.out.println("Mitmendat Fibonacci arvu soovite teada? Sisestage jrk number.");
+			int i = TextIO.getlnInt()-1;
+			 System.out.println(i + 1 + ". Fibonacci arv on: " + fib(i));
+		}
 
 	}
 
