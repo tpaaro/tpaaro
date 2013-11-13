@@ -1,6 +1,12 @@
 package praktikum10;
 
 import java.io.File;
+//Täiendada FailiNimekiri.trykiFailid meetodit niimoodi, 
+//et trükitaks välja kataloogipuu rekursiivselt 
+//(ka failid, mis asuvad alamkataloogides). 
+//Trüki välja kõikide Eclipse Praktikumid-projekti 
+//koodifailide asukohad. See kataloog asub tõenäoliselt:
+// /home/kasutajanimi/Documents/workspace/Praktikumid/src
 import java.util.Arrays;
 
 public class FailiNimekiri {

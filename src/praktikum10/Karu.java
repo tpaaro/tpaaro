@@ -9,15 +9,16 @@ public class Karu extends Applet {
 		int w = getWidth();
 		int h = getHeight();
 		
+		Color pruun =new Color(100, 50, 25);
 		// Katame tausta
 				g.setColor(Color.white);
 				g.fillRect(0, 0, w, h);
         // Joonistame
 				// Ulemine osa - pea ja n2odetailid
-				g.setColor(Color.black);
-				g.drawRect(10, 10, 200, 200); // Kast
+				//g.setColor(Color.black);
+				//g.drawRect(10, 10, 200, 200); // Kast
 				
-				g.setColor(Color.red);
+				g.setColor(pruun);
 				g.fillOval( 80, 20, 65, 65 ); //Pea
 				
 				g.fillOval(80, 15, 20 , 20); // Vasak k6rv
@@ -34,7 +35,7 @@ public class Karu extends Applet {
 				g.drawRect(104, 66, 15, 1); // Suu
 				
 				//Keha
-				g.setColor(Color.red);
+				g.setColor(pruun);
 				g.fillOval(70, 80, 80, 100);
 				//Jalad
 				g.fillOval(90, 170, 20, 40); //Vasak
@@ -44,7 +45,10 @@ public class Karu extends Applet {
 				g.fillOval(130, 100, 50, 10);//Parem
 				
 				g.setColor(Color.black);
-				g.drawString("Rawr!", 10, 230);
+				Font bigFont = new Font("Arial",Font.BOLD,50);
+				g.setFont(bigFont);
+				g.drawString("Rawr!", 40, 230);
+				
 	}
 
 }

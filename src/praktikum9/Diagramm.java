@@ -25,7 +25,7 @@ for(int item:tulbad){
 	System.out.print(item+ " " );
 	String result=""; 
 	for(int i = 0; i<Math.min(item,80); i++)
-	result += "*";
+	result += "x";
 	System.out.println(result);
 }
 	}
