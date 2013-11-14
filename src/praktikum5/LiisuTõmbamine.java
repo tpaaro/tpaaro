@@ -12,17 +12,17 @@ public class LiisuTõmbamine {
 	}
 
 	public static void main(String[] args) {
-		while (true) {
+	
 			TextIO.putln("Sisesta liisku t6mbavate inimeste arv:");
 			int inimArv = TextIO.getlnInt();
 			if (inimArv <= 0) {
 				System.out.println("Error!");
-				continue;
+			
 			}
 			int v6itja = randomArv(inimArv);
 			System.out.println(v6itja);
 
-		}
+		
 
 	}
 

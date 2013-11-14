@@ -40,10 +40,13 @@ public class ÄraArvamisMäng {
 				} else {
 					System.out
 							.println("Pakutud arv on liiga suur. Sul on " + (6-arva) + " võimalust veel");
-				}
+				}	
+				
+				
 
 			}
-		}
+		
 	}
 
+}
 }

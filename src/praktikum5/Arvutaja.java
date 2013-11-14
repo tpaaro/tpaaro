@@ -26,7 +26,7 @@ public class Arvutaja {
 		System.out.println("Korrutamise tulemus on " + korruta(4 , 5));
 		
 		
-		String sadaXi = korruta("X", 100);
+		String sadaXi = korruta("X", 20);
 		
 		System.out.println(sadaXi);
 	}

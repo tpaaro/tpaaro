@@ -2,14 +2,12 @@ package praktikum5;
 import lib.TextIO;
 public class Kysija {
 
-	public static int kasutajaSisestus(int min, int max) {
-		return kasutajaSisestus("Sisesta arv vahemikus " + min + " kuni " + max + ".", min, max);
-	}
 
 	public static int kasutajaSisestus(String kysimus, int min, int max) {
 		// l6putu tsykkel
 		while (true) {
 			// trykime ekraanile kysimuse
+			kysimus = "Sisesta hinne vahemikus " + min + " - " + max;
 			TextIO.putln(kysimus);
 			
 			// kysime kasutajalt sisestuse
