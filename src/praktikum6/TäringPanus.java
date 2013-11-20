@@ -41,7 +41,7 @@ public class TäringPanus {
 			}
 			if (krediit == 0) {
 				System.out
-						.println("Game Over, madafaka! Better luck next time");
+						.println("Game Over, madafaka! Better luck next time.");
 				break;
 			} else {
 				System.out.println("Kas soovid mangu jatkata? Jah(0) Ei (1)");

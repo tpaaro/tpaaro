@@ -31,6 +31,11 @@ public class Fibonacci {
 				if (TextIO.getlnInt() == 1) {
 					System.out.println("Kohtumiseni!");
 					break;
+
+				} else {
+					System.out
+							.println("Mitmendat Fibonacci arvu soovite teada? Sisestage jrk number.");
+
 				}
 
 			}
