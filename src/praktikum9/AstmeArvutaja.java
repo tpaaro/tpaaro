@@ -3,7 +3,7 @@ package praktikum9;
 public class AstmeArvutaja {
 
 	public static void main(String[] args) {
-		System.out.println(astenda(2, 3));
+		System.out.println(astenda(2, 4));
 
 	}
 

@@ -20,11 +20,10 @@ public class ValgestMustaks extends Applet {
 			g.fillRect(0, 0, w, h);
 
 			g.setColor(Color.white);
-			g.fillRect(0, 0, w, h);
+			g.fillRect(0, 0, w, h/2);
 
 			/**
 			 * } //public void yleminek(Graphics g, Color varv1, Color varv2){
-			 * varv1 = Color.black; varv2 = Color.white
 			 */
 
 		}
