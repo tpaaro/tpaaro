@@ -16,27 +16,22 @@ public class MassiiviElementideVäljaPrintimine {
 					  };
 		int[] uus = { 2, 3, 4, 5, 6 };
 		tryki(uus);
-		tryki (neo);
+		tryki(neo);
 			}
 
-	public static void tryki(int[] array) {
-		for (int i = 0; i < array.length; i++) {
-			System.out.print(array[i] + " ");
+	public static void tryki(int[] massiiv) {
+		for (int i = 0; i < massiiv.length; i++) {
+			System.out.print(massiiv[i] + " ");
 		}
 	
 	System.out.println(" ");
-
+	
+	}
+	
+	private static void tryki(int[][] maatriks) {
+		for (int[] a : maatriks) {
+			tryki(a);
+		};
 	}
 
-	public static void tryki(int[][] array) {
-		int i, j;
-		for(i = 0; i < array.length; i = i + 1) {
-			for(j = 0; j < array[i].length; j = j + 1) {
-				System.out.print(array[i][j] + " ");
-			}
-			System.out.println();
-		
-		}
-	}
-	}
-
+}
