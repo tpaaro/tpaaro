@@ -13,7 +13,7 @@ public class SatanistideMärk extends Applet {
 		int raadius = 100; // Raadius
 		int sammudeArv = 5; // Nurkade arv
 		int tiirudeArv = 2; // "Tiirude" arv
-		double t0 = Math.PI / 2; // Faas ehk kust alustada
+		double t0 = Math.PI/2 ; // Faas ehk kust alustada
 		int x, y, eelmineX = 0, eelmineY = 0;
 		double t;
 		boolean esimene = true;

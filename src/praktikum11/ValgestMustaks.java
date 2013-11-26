@@ -10,6 +10,7 @@ import java.applet.Applet;
 import java.awt.Color;
 import java.awt.Graphics;
 
+@SuppressWarnings("serial")
 public class ValgestMustaks extends Applet {
 
 	public void paint(Graphics g) {
@@ -17,15 +18,16 @@ public class ValgestMustaks extends Applet {
 		int h = getHeight();
 		int i;
 		double x = 255;
-		double samm = 255 / h;
+		double samm =  x / h;
 
-		Color valge = new Color((int) x, (int) x, (int) x);
 
 		for (i = 0; i < h; i = i + 1) {
-			x = x - samm;
+			x -= samm;
 			Color uus = new Color((int) x, (int) x, (int) x);
 			g.setColor(uus);
-			g.drawLine(0, i, w, i);
+			g.drawLine(i, 0, i, w);
+			
+			
 		}
 
 		/*
