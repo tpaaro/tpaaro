@@ -15,17 +15,22 @@ public class ValgestMustaks extends Applet {
 	public void paint(Graphics g) {
 		int w = getWidth();
 		int h = getHeight();
-		
-			g.setColor(Color.black);
-			g.fillRect(0, 0, w, h);
+		int i;
+		double x = 255;
+		double samm = 255 / h;
 
-			g.setColor(Color.white);
-			g.fillRect(0, 0, w, h/2);
+		Color valge = new Color((int) x, (int) x, (int) x);
 
-			/**
-			 * } //public void yleminek(Graphics g, Color varv1, Color varv2){
-			 */
-
+		for (i = 0; i < h; i = i + 1) {
+			x = x - samm;
+			Color uus = new Color((int) x, (int) x, (int) x);
+			g.setColor(uus);
+			g.drawLine(0, i, w, i);
 		}
-	}
 
+		/*
+		 * } //public void yleminek(Graphics g, Color varv1, Color varv2){
+		 */
+
+	}
+}

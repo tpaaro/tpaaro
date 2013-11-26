@@ -29,7 +29,7 @@ public class MassiiviElementideVäljaPrintimine {
 	}
 	
 	private static void tryki(int[][] maatriks) {
-		for (int[] a : maatriks) {
+		for (int[] a: maatriks) {
 			tryki(a);
 		};
 	}
