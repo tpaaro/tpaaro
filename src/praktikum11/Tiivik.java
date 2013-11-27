@@ -5,9 +5,8 @@ import java.awt.*;
 
 public class Tiivik extends Applet {
 	/*
-	 * Ringjoone vo~rrand parameetrilisel kujul 
-	 * x = r * cos(t) 
-	 * y = r * sin(t) == -PI..PI
+	 * Ringjoone vo~rrand parameetrilisel kujul x = r * cos(t) y = r * sin(t) ==
+	 * -PI..PI
 	 */
 	public void paint(Graphics g) {
 		int x0 = 250; // Keskpunkt
@@ -26,7 +25,7 @@ public class Tiivik extends Applet {
 		g.fillRect(0, 0, w, h);
 
 		// Joonistame
-		g.setColor(Color.black);
+		g.setColor(Color.red);
 
 		for (t = -Math.PI; t < Math.PI; t = t + Math.PI / 8) {
 			x = (int) (r * Math.cos(t) + x0);
@@ -38,6 +37,7 @@ public class Tiivik extends Applet {
 
 			} else {
 				g.drawLine(eelmineX, eelmineY, x, y);
+				esimene = true;
 			}
 			eelmineX = x;
 			eelmineY = y;
