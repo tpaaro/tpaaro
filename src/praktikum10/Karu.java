@@ -46,10 +46,11 @@ public class Karu extends Applet {
 		g.fillOval(130, 100, 50, 10);// Parem
 
 		g.setColor(Color.black);
-		Font bigFont = new Font("Arial", Font.BOLD, 50);
+	
+		Font bigFont = new Font("Arial", Font.BOLD, 30);
 		g.setFont(bigFont);
-		g.drawString("Rawr!", 40, 230);
-
+		g.drawString("Fus! Ro! Dah!", 40, 230);
+		
 	}
 
 }
