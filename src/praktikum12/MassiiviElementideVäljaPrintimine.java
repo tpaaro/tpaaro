@@ -6,18 +6,20 @@ public class MassiiviElementideVäljaPrintimine {
 		// TODO Auto-generated method stub
 		int[][] neo = { { 1, 1, 1, 1, 1 }, { 2, 3, 4, 5, 6 },
 				{ 3, 4, 5, 6, 7 }, { 4, 5, 6, 7, 8 }, { 5, 6, 7, 8, 9 }, };
-		int[][] kamakaks = { { 1, 2 }, { 3, 4 }, { 5, 6 }
+		int[][] kamakaks = { { 1, 2 }, 
+							 { 3, 4 }, 
+							 { 5, 6 }
 
 		};
 
-		// tryki(neo[3]);
-		// tryki(neo);
+		//tryki(kamakaks);
+		//tryki(neo);
 		// tryki(ridadeSummad(neo));
 		// System.out.println(korvalDiagonaaliSumma(neo));
 		// tryki(ridadeMaksimum(neo));
 		// System.out.println(miinimum(neo));
 		// tryki(kahegaJaakMaatriks(3,5)) ;
-		tryki(transponeeri(kamakaks));
+		//tryki(transponeeri(kamakaks));
 	}
 
 	public static void tryki(int[] massiiv) {
