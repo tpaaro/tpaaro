@@ -55,54 +55,6 @@ public class Kaart {
 	 */
 	public String toString() {
 		
-		
-		/*
-		String numStr = "Error";
-		
-		switch(this.kaardiNr){
-		
-		case 2:
-			numStr = "Kaks";
-			break;
-		case 3:
-			numStr = "Kolm";
-			break;
-		case 4:
-			numStr = "Neli";
-			break;
-		case 5:
-			numStr = "Viis";
-			break;
-		case 6:
-			numStr = "Kuus";
-			break;
-		case 7:
-			numStr = "Seitse";
-			break;
-		case 8:
-			numStr = "Kaheksa";
-			break;
-		case 9:
-			numStr = "Üheksa";
-			break;
-		case 10:
-			numStr = "Kümme";
-			break;
-		case 11:
-			numStr = "Poiss";
-			break;
-		case 12:
-			numStr = "Emand";
-			break;
-		case 13:
-			numStr = "Kuningas";
-			break;
-		case 1:
-			numStr = "Äss";
-			break;
-		}
-		*/
-		
 		return minuMast.toString() + " " + kaardiVd.get(kaardiNr);
 
 	}

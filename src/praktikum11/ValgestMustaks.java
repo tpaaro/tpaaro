@@ -14,8 +14,7 @@ import java.awt.Graphics;
 public class ValgestMustaks extends Applet {
 
 	public void paint(Graphics g) {
-		int w = getWidth();
-		int h = getHeight();
+		int h = 510;
 		int i;
 		double x = 255;
 		double samm =  x / h;
